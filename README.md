@@ -73,4 +73,11 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 Nest is [MIT licensed](LICENSE).
 
 ## DTO(Data Transfer Object)
-npm i class-validator class-transformer      
+
+## 클래스 유효성 검사
+
+npm i class-validator class-transformer
+
+## 타입 변환 사용 패키지
+
+npm i @nestjs/mapped-types
