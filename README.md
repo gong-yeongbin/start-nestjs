@@ -74,10 +74,41 @@ Nest is [MIT licensed](LICENSE).
 
 ## DTO(Data Transfer Object)
 
-## 클래스 유효성 검사
+> 클래스 유효성 검사
+>
+> > npm i class-validator class-transformer
 
-npm i class-validator class-transformer
+> 타입 변환 사용 패키지
+>
+> > npm i @nestjs/mapped-types
 
-## 타입 변환 사용 패키지
+## ec2
 
-npm i @nestjs/mapped-types
+> ssh -v -i /Users/jsantos/Downloads/my-nest-application.pem ec2-user@ec2–18–188–20–76.us-east-2.compute.amazonaws.com
+>
+> > -v는 명령을 실행할 때 로그를 표시하는 플래그
+> > -i는 pem 키가있는 위치를 지정하는 플래그
+
+> pem 권한
+>
+> > chmod 400 /Users/jsantos/Downloads/my-nest-application.pem
+
+> 노드 버전 관리자 (NVM)를 사용하여 Node.js를 설치
+>
+> > curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+
+> NVM을 활성화
+>
+> > . ~/.nvm/nvm.sh
+> > nvm install node
+> > node -v
+> > install git
+> > sudo yum update -y
+> > sudo yum install git -y
+> > git clone https://github.com/gong-yeongbin/start-nestjs
+> > npm install
+> > npm run build
+> > npm install -g pm2@latest
+> > pm2 start dist/main.js --name 프로세스네임
+> > pm2 startup systemd
+> > pm2 save
